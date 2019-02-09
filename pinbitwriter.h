@@ -20,6 +20,7 @@
  * SOFTWARE.
  **/
 #ifndef PINBITWRITER_H
+#include<Arduino.h>
 #define PINBITWRITER_H
 
 namespace com_cezarmathe
