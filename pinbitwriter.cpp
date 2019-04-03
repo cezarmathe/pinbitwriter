@@ -21,6 +21,8 @@
  **/
 #include "pinbitwriter.h"
 
+#ifndef PINBITWRITER_CPP
+#define PINBITWRITER_CPP
 void com_cezarmathe :: write(int bits) {
     for (int i = 0; i < com_cezarmathe :: pinCount; i++) {
         digitalWrite(
@@ -36,3 +38,4 @@ void com_cezarmathe :: init() {
         pinMode(com_cezarmathe :: pins[i], 0x1);
     }
 }
+#endif
